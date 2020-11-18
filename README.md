@@ -71,7 +71,7 @@ public interface ScreenStateListener {
 ```kotlin
 screenRecorderBuild?.cancelAll()
 ```
-### 代码部分借鉴于[ScreenRecordHelper](https://github.com/nanchen2251/ScreenRecordHelper)
+### 代码基于[ScreenRecordHelper](https://github.com/nanchen2251/ScreenRecordHelper)封装
 ### [更多介绍](https://blog.csdn.net/qq_30710615/article/details/109766970)
 
 
