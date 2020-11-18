@@ -1,0 +1,3 @@
+include ':recording'
+include ':app'
+rootProject.name = "Screenrecorder"
