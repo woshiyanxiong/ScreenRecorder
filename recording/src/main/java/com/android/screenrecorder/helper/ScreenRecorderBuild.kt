@@ -66,6 +66,10 @@ class ScreenRecorderBuild private constructor(builder: Builder) {
             showToast("当前手机暂不支持录屏")
             return
         }
+        if (isRecording){
+            Log.e(TAG, "已在录制中")
+            return
+        }
         mediaProjectionManager?.apply {
             val intent = this.createScreenCaptureIntent()
             if (activity?.packageManager?.resolveActivity(
