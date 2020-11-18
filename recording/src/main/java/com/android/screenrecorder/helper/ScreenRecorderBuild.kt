@@ -93,7 +93,7 @@ class ScreenRecorderBuild private constructor(builder: Builder) {
                 mediaProjection = mediaProjectionManager!!.getMediaProjection(resultCode, data)
                 // 实测，部分手机上录制视频的时候会有弹窗的出现
                 Handler().postDelayed({
-                    activity?.moveTaskToBack(true)
+//                    activity?.moveTaskToBack(true)
                     setMediaRecorder()
                 }, 150)
             } else {
