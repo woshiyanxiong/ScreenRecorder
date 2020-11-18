@@ -1,3 +1,4 @@
+## [apk体验](https://githubapk.oss-cn-beijing.aliyuncs.com/app-debug.apk)
 ## Android录屏基于5.0之上
 ### 1.如何使用
   直接复制recording库下面的代码，或者引入recording库。
